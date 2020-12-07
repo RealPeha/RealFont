@@ -1,0 +1,44 @@
+/* Text
+---------------*/
+@font-face {
+	font-family: 'RealFont';
+	src: url('../fonts/RealFont.woff');
+	font-style: normal;
+	font-weight: normal;
+}
+ul li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+h1 {
+    font-size: 40px;
+    color: tomato;
+}
+h4 {
+    color: darkkhaki;
+    font-weight: 100;
+    font-size: 20px;
+}
+/*-------------*/
+
+/* Main
+---------------*/
+body {
+    font-family: "RealFont", sans-serif;
+    text-align: center;
+}
+body, ul, h1, h4 {
+    margin: 0;
+    padding: 0;
+}
+/*-------------*/
+div {
+    width: 90%;
+    height: calc(100% - 100px);
+    margin: 0 auto;
+}
+span {
+    color: tomato;
+}
